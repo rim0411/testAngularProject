@@ -1,0 +1,50 @@
+<div style="background-color: rgb(255, 255, 255);width: 398px;margin-top: -25px;margin-left: -23px;height:300px;margin-bottom: -40px;">
+
+
+  <br> 
+  <div class="card-header font-weight-bold black-text p-0" style="background-color: rgb(73, 73, 247);margin-top: -25px;"> 
+    <button type="button" style="background-color: rgb(39, 38, 38);margin-left: 380px;margin-top: -20px;"
+    (click)="Fermer()">
+    <i class="fa fa-times"></i>
+  </button>
+<p style="margin-top: -20px;color: aliceblue;">Book Details</p>  
+    </div>
+<!--list of books details-->
+<br> <br>
+<table  >
+  <tr>
+    <td>
+      <label id="espleft">
+        <h5 id="titleliste">Autor:</h5>
+      </label>
+      <label id="pass">
+        <h6>{{data.book.author}}</h6>
+      </label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label id="espleft">
+        <h5 id="titleliste">Price:</h5>
+      </label>
+      <label id="pass">
+        <h6>{{data.book.price}}</h6>
+      </label>
+    </td>
+
+  </tr>
+  <tr>
+    <td>
+      <label id="espleft">
+        <h5 id="titleliste">Rank:</h5>
+      </label>
+      <label id="pass">
+        <h6>{{data.book.rank}} </h6>
+      </label>
+    </td>
+
+  </tr>
+
+
+</table>
+</div>
